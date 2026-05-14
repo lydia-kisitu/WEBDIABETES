@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring HTML Tags </title>
+</head>
+<body>
+
+    <!-- Header Section with Heading -->
+    <header>
+        <h1>User Input Form</h1>
+    </header>
+
+    <!-- Form Content Section -->
+    <form>
+
+        <!-- Text Input Box -->
+		<!-- for="username": Links the label to the input field with the id="username". Clicking on the label focuses the associated input field.-->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+
+        <br>
+
+        <!-- Password Input Box -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+
+        <br>
+
+        <!-- Radio Buttons -->
+		<!-- when a user clicks on the radio button, it becomes checked, and all other radio buttons with same name becomes uncheked -->
+        <p>Gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+		
+		<label for="other">Other</label>
+        <input type="radio" id="Other" name="gender" value="other">
+
+        <br>
+
+        <!-- Dropdown Menu -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="sa">South Africa</option>
+            <option value="ng">Nigeria</option>
+            <option value="australia">Australia</option>
+        </select>
+
+        <br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+        <label for="subscribe">Subscribe to our newsletter</label>
+
+        <br>
+        <!-- Link to External Website -->
+        <a href="https://www.regenesys.net/" target="_blank">Visit our Website</a>
+        <br><br>
+
+         <!-- Image Tag -->
+         <img src="MPM.jpg" alt="Placeholder Image" width="400" height="200">
+         <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+
+</body>
+</html>
