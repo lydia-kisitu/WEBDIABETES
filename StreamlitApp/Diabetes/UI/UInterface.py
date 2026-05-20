@@ -93,8 +93,7 @@ if submit:
     probability = model.predict_proba(input_data)
 
     if prediction[0] == 0:
-        
-       st.success(
+           st.success(
             f"Non-Diabetic ✅ "
             f"(Confidence: {probability[0][0] * 100:.2f}%)"
         )
@@ -135,3 +134,4 @@ if submit:
     st.subheader("Patient Data Visualization")
 
     st.bar_chart(chart_data.set_index("Feature"))
+             
