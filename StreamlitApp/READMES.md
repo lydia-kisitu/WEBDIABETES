@@ -6,17 +6,26 @@ A machine learning web application that predicts the likelihood of diabetes usin
 
 ## Features
 
+### Diabetes Prediction
+![Prediction](StreamlitApp/Diabetes/UI/image-5.png)
+
+### Streamlit Interface
+![Interface](StreamlitApp/Diabetes/UI/image-1.png)
+
+### Charts and Visualizations
+![Charts](StreamlitApp/Diabetes/UI/image-4.png)
+
 ### Diabetes prediction using Machine Learning
-![Prediction](image-5.png)
+![Prediction](StreamlitApp/Diabetes/UI/image-5.png)
 
 ### Streamlit Web Interface
-![Interface](image-1.png)
+![Interface](StreamlitApp/Diabetes/UI/image-1.png)
 
 ### Confidence Score Display
 ![Confidence](image-6.png)
 
 ### Interactive Charts and Visualizations
-![Charts](image-4.png)
+![Charts](StreamlitApp/Diabetes/UI/image-4.png)
 
 ---
 
